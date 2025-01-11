@@ -12,6 +12,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "command-line-args": "^6.0.1",
     "nodemon": "^3.1.9",
     "puppeteer": "^24.0.0",
     "puppeteer-core": "^24.0.0"
