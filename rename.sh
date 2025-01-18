@@ -13,7 +13,7 @@ fi
 series_name=$1
 
 # Loop through all files matching the pattern
-for file in EP.*.v*.1080p.mp4; do
+for file in EP.*.v*.{1080p,720p}.mp4; do
   # Extract the episode number using regex
   if [[ $file =~ EP\.([0-9]+)\.v[0-9]+\..* ]]; then
     episode_number=${BASH_REMATCH[1]}
